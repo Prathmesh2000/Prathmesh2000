@@ -14,6 +14,25 @@
 
 ---
 
+### 🌟 Open source: frontdex
+
+**[frontdex](https://github.com/Prathmesh2000/frontdex)** is a living knowledge base of your frontend, for developers and coding agents. Think Swagger, but for your UI: every route, component, prop, state, API call and test, linked to `file:line`, with impact analysis, leak and render-loop detection, PR impact comments, and an MCP server so Claude Code, Cursor, Antigravity and other agents reuse code instead of duplicating it.
+
+<p>
+  <a href="https://www.npmjs.com/package/frontdex"><img src="https://img.shields.io/npm/v/frontdex?label=frontdex&logo=npm"/></a>
+  <a href="https://www.npmjs.com/package/frontdex-mcp"><img src="https://img.shields.io/npm/v/frontdex-mcp?label=frontdex-mcp&logo=npm"/></a>
+  <a href="https://github.com/Prathmesh2000/frontdex/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue"/></a>
+  <a href="https://github.com/Prathmesh2000/frontdex/stargazers"><img src="https://img.shields.io/github/stars/Prathmesh2000/frontdex?style=social"/></a>
+</p>
+
+<img src="assets/frontdex-demo.gif" alt="frontdex UI: site map, page, component, health and impact graph views" width="720"/>
+
+```bash
+npm i -D frontdex frontdex-mcp && npx frontdex init --auto-update && npx frontdex scan && npx frontdex serve
+```
+
+React, Next.js, Vue, Svelte, Astro, Angular, Web Components and HTML. Contributions welcome: start with the [good first issues](https://github.com/Prathmesh2000/frontdex/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+
 ### 📈 Impact in numbers
 
 | | |
@@ -62,8 +81,8 @@
 |---|---|---|
 | **QA-Path** *(work)* | AI-native test management: PRD-to-test generation, OpenAPI API testing, Playwright regression, usable from Slack, Claude Code and Cursor via MCP | LangGraph, pgvector, Node.js, AWS |
 | **Technical Recruitment Agent** | Knowledge-graph candidate matching, multi-source resume ingestion, AI interview agents | Multi-agent AI, Docker |
-| [**frontdex**](https://github.com/Prathmesh2000/frontdex) | Living knowledge base for React/Next.js apps, like Swagger for your UI, with memory-leak & render-loop diagnostics | Node.js, AST parsing, React |
-| [**frontdex-mcp**](https://github.com/Prathmesh2000/frontdex-mcp) | MCP server giving Claude Code, Cursor & other coding agents a live index of your frontend | MCP, Node.js |
+| [**frontdex**](https://github.com/Prathmesh2000/frontdex) | *Open source, on npm.* Living knowledge base for React, Next.js, Vue, Svelte, Astro and Angular apps, like Swagger for your UI: impact analysis, leak & render-loop diagnostics, test mapping, PR impact comments | Node.js, AST parsing, React |
+| [**frontdex-mcp**](https://github.com/Prathmesh2000/frontdex-mcp) | *Open source, on npm.* MCP server with 23 tools giving Claude Code, Cursor, Antigravity & other coding agents a live index of your frontend | MCP, Node.js |
 | [**cursor_agent-orchestrator**](https://github.com/Prathmesh2000/cursor_agent-orchestrator) | 48+ agent roles and 77+ skills taking a feature from idea to quality-gated code | Multi-agent AI |
 | [**AI-Crawler-Skills**](https://github.com/Prathmesh2000/AI-Crawler-Skills) | AI web crawling: Playwright rendering, cleaning, schema inference, CSV/JSON export | Playwright, AI agents |
 
